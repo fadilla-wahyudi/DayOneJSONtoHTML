@@ -9,3 +9,7 @@ The output HTML file extracts the following information from the JSON file:
 - Photos, videos and audios (in M4A format)
 
 I had to convert my videos to MP4 so that they're playable on a browser.
+
+## Example
+![Screenshot of table of contents](images/Screenshot1.png)
+![Screenshot of entry](images/Screenshot2.png)
