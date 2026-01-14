@@ -109,7 +109,8 @@ def convert_dayone_json_to_single_html(json_file, photos_dir="photos", videos_di
         media_html = []
         mime_map = {
             ".mp4": "video/mp4",
-            ".mov": "video/quicktime",
+            # This somehow works to ensure that the MOV files play in the browser
+            ".mov": "video/mp4",
             ".webm": "video/webm"
         }
 
